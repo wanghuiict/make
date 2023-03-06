@@ -1,3 +1,3 @@
 FROM ghcr.io/unikraft/kraftkit/make:latest
-label version="latest"
+LABEL version="latest"
 RUN ["sleep", "infinity"]
